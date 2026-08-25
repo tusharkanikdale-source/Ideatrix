@@ -318,7 +318,7 @@ try:
         </div>
 
         <div class="footer">
-            <div class="footer-tap">Tap anywhere for new inspiration</div>
+            <div class="footer-tap">Tap for new inspiration</div>
             <div class="footer-brand">Brought to you by Knowledge-Station</div>
         </div>
     </div>
