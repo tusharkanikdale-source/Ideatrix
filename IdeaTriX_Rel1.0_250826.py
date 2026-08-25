@@ -228,7 +228,7 @@ try:
         /* Pin the button to the top right corner */
         .info-container {{ 
             position: absolute;
-            top: 24px;
+            top: 30px;
             right: 16px;
             margin: 0; 
         }}
