@@ -212,30 +212,42 @@ try:
     .footer-brand {{ color: #938F99; font-size: 10px; font-weight: bold; letter-spacing: 1.5px; text-transform: uppercase; }}
     .footer-brand {{ color: #938F99; font-size: 10px; font-weight: bold; letter-spacing: 1.5px; text-transform: uppercase; }}
     
-   /* --- Mobile Responsiveness --- */
+  /* --- Mobile Responsiveness --- */
     @media (max-width: 768px) {{
         .header {{ 
             padding: 24px 16px 16px 16px; 
-            flex-wrap: wrap; /* Allows the tooltip to drop to the next line if needed */
         }}
         .logo-img {{ 
-            margin-right: 12px; /* Restores the space between the icon and text */
-            height: 55px; /* Shrinks the icon slightly to fit the mobile row */
+            margin-right: 12px; 
+            height: 55px; 
             margin-bottom: 0;
         }}
         .header-text h1 {{ font-size: 26px; }}
         .tagline {{ font-size: 12px; }}
         
-        /* Adjust tooltip for small screens */
-        .info-container {{ margin: 16px auto 0 0; }}
+        /* Pin the button to the top right corner */
+        .info-container {{ 
+            position: absolute;
+            top: 24px;
+            right: 16px;
+            margin: 0; 
+        }}
+        
+        /* Shrink the button slightly to prevent overlapping the title */
+        .info-icon {{
+            padding: 6px 12px;
+            font-size: 13px;
+        }}
+        
+        /* Align the popup text box to the right edge */
         .info-tooltip {{ 
-            width: 280px; 
-            left: 0; 
-            right: auto;
+            width: 260px; 
+            right: 0; 
+            left: auto;
         }}
         .info-tooltip::after {{ 
-            left: 45px; 
-            right: auto;
+            right: 20px; 
+            left: auto;
         }}
         
         /* Shrink card padding and text */
