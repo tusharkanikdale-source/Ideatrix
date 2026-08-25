@@ -271,7 +271,7 @@ try:
             {img_tag}
             <div class="header-text">
                 <h1>IdeaTrix</h1>
-                <p class="tagline">Let Ideas  flow at the velociy of thoughts</p>
+                <p class="tagline">Let Ideas  flow at the speed of thoughts</p>
             </div>
             
             <!-- Information Tooltip Badge -->
