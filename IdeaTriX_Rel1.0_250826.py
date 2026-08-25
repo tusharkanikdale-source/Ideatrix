@@ -212,31 +212,30 @@ try:
     .footer-brand {{ color: #938F99; font-size: 10px; font-weight: bold; letter-spacing: 1.5px; text-transform: uppercase; }}
     .footer-brand {{ color: #938F99; font-size: 10px; font-weight: bold; letter-spacing: 1.5px; text-transform: uppercase; }}
     
-    /* --- Mobile Responsiveness --- */
+   /* --- Mobile Responsiveness --- */
     @media (max-width: 768px) {{
         .header {{ 
-            padding: 30px 16px 16px 16px; 
-            flex-direction: column; 
-            text-align: center; 
+            padding: 24px 16px 16px 16px; 
+            flex-wrap: wrap; /* Allows the tooltip to drop to the next line if needed */
         }}
         .logo-img {{ 
-            margin-right: 0; 
-            margin-bottom: 12px; 
-            height: 65px; 
+            margin-right: 12px; /* Restores the space between the icon and text */
+            height: 55px; /* Shrinks the icon slightly to fit the mobile row */
+            margin-bottom: 0;
         }}
-        .header-text h1 {{ font-size: 28px; }}
-        .tagline {{ font-size: 13px; }}
+        .header-text h1 {{ font-size: 26px; }}
+        .tagline {{ font-size: 12px; }}
         
         /* Adjust tooltip for small screens */
-        .info-container {{ margin: 16px auto 0 auto; }}
+        .info-container {{ margin: 16px auto 0 0; }}
         .info-tooltip {{ 
             width: 280px; 
-            right: 50%; 
-            transform: translateX(50%); 
+            left: 0; 
+            right: auto;
         }}
         .info-tooltip::after {{ 
-            right: 50%; 
-            margin-right: -8px; 
+            left: 45px; 
+            right: auto;
         }}
         
         /* Shrink card padding and text */
