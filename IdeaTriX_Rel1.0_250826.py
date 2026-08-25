@@ -210,6 +210,43 @@ try:
     .footer {{ text-align: center; padding: 24px; }}
     .footer-tap {{ color: #49454F; font-size: 14px; font-weight: 500; margin-bottom: 16px; }}
     .footer-brand {{ color: #938F99; font-size: 10px; font-weight: bold; letter-spacing: 1.5px; text-transform: uppercase; }}
+    .footer-brand {{ color: #938F99; font-size: 10px; font-weight: bold; letter-spacing: 1.5px; text-transform: uppercase; }}
+    
+    /* --- Mobile Responsiveness --- */
+    @media (max-width: 768px) {{
+        .header {{ 
+            padding: 30px 16px 16px 16px; 
+            flex-direction: column; 
+            text-align: center; 
+        }}
+        .logo-img {{ 
+            margin-right: 0; 
+            margin-bottom: 12px; 
+            height: 65px; 
+        }}
+        .header-text h1 {{ font-size: 28px; }}
+        .tagline {{ font-size: 13px; }}
+        
+        /* Adjust tooltip for small screens */
+        .info-container {{ margin: 16px auto 0 auto; }}
+        .info-tooltip {{ 
+            width: 280px; 
+            right: 50%; 
+            transform: translateX(50%); 
+        }}
+        .info-tooltip::after {{ 
+            right: 50%; 
+            margin-right: -8px; 
+        }}
+        
+        /* Shrink card padding and text */
+        .card-container {{ padding: 0 16px; }}
+        .card-content {{ padding: 32px 20px; }}
+        .theme-text {{ font-size: 24px; margin-bottom: 16px; }}
+        .example-text {{ font-size: 16px; }}
+        .divider {{ margin: 0 auto 16px auto; }}
+    }}
+    </style>
     </style>
 
     <script>
