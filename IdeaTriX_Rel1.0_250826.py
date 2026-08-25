@@ -6,7 +6,7 @@ import base64
 import streamlit.components.v1 as components
 
 # 1. Page Configuration
-st.set_page_config(page_title="IdeaTrix", layout="wide", page_icon="💡")
+st.set_page_config(page_title="IdeaTrixTRIAL", layout="wide", page_icon="💡")
 
 # Hide the default Streamlit button and adjust padding
 st.markdown(
