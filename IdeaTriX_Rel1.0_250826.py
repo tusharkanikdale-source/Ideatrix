@@ -286,7 +286,7 @@ try:
             </div>
             
             <!-- Information Tooltip Badge -->
-            <div class="info-container" onclick="event.stopPropagation();">
+            <div class="info-container" onclick="event.stopPropagation(); document.querySelector('.info-tooltip').classList.toggle('active');">
                 <div class="info-icon">ℹ️Help</div>
                 <div class="info-tooltip">
                     Environment is designed to trigger ideas & inspire flow of creative energy from within you.<br><br> Be Clear on  your system / subsystem / component which needs improvement. Fuel your imagination by keeping the clear schematic in front of you.<br><br>Apply the ideation triggers for your problem one by one. Catch the idea spark, be fluid, don't overthink and enjoy the journey!
