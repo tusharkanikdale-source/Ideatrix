@@ -172,7 +172,7 @@ try:
         border-style: solid;
         border-color: transparent transparent #1C1B1F transparent;
     }}
-    .info-container:hover .info-tooltip {{
+    .info-tooltip.active {{
         visibility: visible;
         opacity: 1;
     }}
