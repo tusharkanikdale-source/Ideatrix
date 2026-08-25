@@ -215,7 +215,7 @@ try:
   /* --- Mobile Responsiveness --- */
     @media (max-width: 768px) {{
         .header {{ 
-            padding: 24px 16px 16px 16px; 
+            padding: 48px 16px 16px 16px; 
         }}
         .logo-img {{ 
             margin-right: 12px; 
