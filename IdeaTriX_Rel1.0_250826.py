@@ -235,7 +235,7 @@ try:
         
         /* Shrink the button slightly to prevent overlapping the title */
         .info-icon {{
-            padding: 12px 12px;
+            padding: 30px 12px;
             font-size: 13px;
         }}
         
