@@ -228,7 +228,7 @@ try:
         /* Pin the button to the top right corner */
         .info-container {{ 
             position: absolute;
-            top: 48px;
+            top: 24px;
             right: 16px;
             margin: 0; 
         }}
@@ -287,7 +287,7 @@ try:
             
             <!-- Information Tooltip Badge -->
             <div class="info-container" onclick="event.stopPropagation();">
-                <div class="info-icon">ℹ️ How to use</div>
+                <div class="info-icon">ℹ️Help</div>
                 <div class="info-tooltip">
                     Environment is designed to trigger ideas & inspire flow of creative energy from within you.<br><br> Be Clear on  your system / subsystem / component which needs improvement. Fuel your imagination by keeping the clear schematic in front of you.<br><br>Apply the ideation triggers for your problem one by one. Catch the idea spark, be fluid, don't overthink and enjoy the journey!
                 </div>
