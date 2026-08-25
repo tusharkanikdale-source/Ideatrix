@@ -257,7 +257,7 @@ try:
         .example-text {{ font-size: 16px; }}
         .divider {{ margin: 0 auto 16px auto; }}
         .footer {{
-            padding-bottom: 80px;
+            padding-bottom: 100px;
     }}
     </style>
     </style>
