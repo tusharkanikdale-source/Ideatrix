@@ -256,6 +256,8 @@ try:
         .theme-text {{ font-size: 24px; margin-bottom: 16px; }}
         .example-text {{ font-size: 16px; }}
         .divider {{ margin: 0 auto 16px auto; }}
+        .footer {{
+            padding-bottom: 60px;
     }}
     </style>
     </style>
