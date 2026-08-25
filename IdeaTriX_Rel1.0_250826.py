@@ -228,14 +228,14 @@ try:
         /* Pin the button to the top right corner */
         .info-container {{ 
             position: absolute;
-            top: 24px;
+            top: 48px;
             right: 16px;
             margin: 0; 
         }}
         
         /* Shrink the button slightly to prevent overlapping the title */
         .info-icon {{
-            padding: 30px 12px;
+            padding: 12px 12px;
             font-size: 13px;
         }}
         
